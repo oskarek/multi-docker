@@ -22,7 +22,7 @@ after_success:
   - docker push ooskarek/multi-worker
 
 deploy:
-  provider: elasticbenastalk
+  provider: elasticbeanstalk
   region: us-east-1
   app: multi-docker
   env: MultiDocker-env
